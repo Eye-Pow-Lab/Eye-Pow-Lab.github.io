@@ -1,3 +1,3 @@
-### Machine Vision and Pattern Recognition (MVPR) Research Group
+# Intelligent Perception and Autonomous Optimization Laboratory (IPAOLab)
 
-Our research interests include: pattern recognition, intelligent information processing and algorithm optimization.
+Zhang Hengmin, PhD, Professor, PhD Supervisor, and a recipient of the National High-Level Young Talents Program. He obtained his bachelor’s and master’s degrees in Mathematics, and later earned his Doctor of Engineering degree in Control Science and Engineering from the School of Computer Science and Engineering, Nanjing University of Science and Technology. After graduating with his PhD, he first conducted postdoctoral research at the School of Information Science and Engineering, East China University of Science and Technology, and then pursued further postdoctoral research at the Faculty of Science and Technology, University of Macau, and the School of Electrical and Electronic Engineering, Nanyang Technological University.

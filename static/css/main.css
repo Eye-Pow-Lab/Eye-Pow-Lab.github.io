@@ -1041,3 +1041,23 @@ pre {
   border: 1px solid #777;
 }
 
+.img-left {
+  float: left;
+  margin-right: 1.5rem;
+}
+
+.img-right {
+  float: right;
+  margin-left: 1.5rem;
+}
+
+.research-img {
+  width: 45%;
+  margin-bottom: 0.5rem;
+  object-fit: cover;
+}
+
+.research-text {
+    text-align: justify;
+    font-size: 1.3rem;
+}
