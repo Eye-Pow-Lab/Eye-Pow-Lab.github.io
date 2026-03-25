@@ -115,7 +115,7 @@ body {
   color: #404040;
   position: relative;
   background-color: #FFFFFF;
-  
+
 }
 p {
   line-height: 1.5;
@@ -225,7 +225,7 @@ img {
   background-color: #314f96;
   border-bottom: 1px solid #294481;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  
+
   -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
   -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
   transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -426,18 +426,18 @@ img {
   width: 100%;
   display: inline-block;
   margin-left: -50%;
-  
+
     border-radius: 50%;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
-  
+
 }
 .navbar-custom .avatar-container .avatar-img {
   width: 100%;
-  
+
     border-radius: 50%;
-  
+
   display: block;
 }
 
@@ -452,11 +452,11 @@ img {
 
   .navbar-custom .avatar-container .avatar-img-border {
     width: 100%;
-    
+
     box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
     -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    
+
   }
 
   .navbar-custom .avatar-container .avatar-img {
@@ -472,7 +472,7 @@ footer {
   margin-top: 3.125rem;
   font-size: 0.875rem;
   background-color: #EAEAEA;
-  
+
 }
 
 footer p.text-muted {
@@ -1064,4 +1064,50 @@ pre {
 
 .journal_name {
   color: blue;
+}
+
+#custom-ol-journal {
+  counter-reset: item 25;   /* 总数+1（因为第一个递减后得到总数） */
+  list-style: none;
+  padding-left: 0;
+}
+#custom-ol-journal li {
+  counter-increment: item -1;  /* 每次减1 */
+  margin-bottom: 0.5em;
+}
+#custom-ol-journal li::before {
+  content: "[J" counter(item) "]";
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+#custom-ol-conference {
+  counter-reset: item 7;   /* 总数+1（因为第一个递减后得到总数） */
+  list-style: none;
+  padding-left: 0;
+}
+#custom-ol-conference li {
+  counter-increment: item -1;  /* 每次减1 */
+  margin-bottom: 0.5em;
+}
+#custom-ol-conference li::before {
+  content: "[C" counter(item) "]";
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+.code-button:hover {
+    color: #b509ac;
+    border-color: #b509ac;
+    transition: all 0.2s ease-in-out;
+}
+.code-button {
+    color: #000;
+    border: 1px solid #000;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-left: 0;
+    text-decoration: none;
+    font-size: 1rem;
 }
