@@ -25,6 +25,7 @@
     <link href="static/css/all.min.css" rel="stylesheet"/>
 </head>
 
+
 <body id="page-top">
 <!-- Navigation-->
 <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
@@ -54,7 +55,7 @@
                     <a class="nav-link me-lg-3" href="conference.html">CONFERENCE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-lg-3 active" href="#">POSITIONS</a>
+                    <a class="nav-link me-lg-3 active" href="project.html">PROJECT</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link me-lg-3" href="others.html">OTHERS</a>
@@ -63,33 +64,47 @@
         </div>
     </div>
 </nav>
+
 <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
     <div class="container px-5">
         <header>
-            <h2 id="POSITIONS-subtitle">&nbsp;POSITIONS</h2>
+            <h2 id="publications-subtitle">&nbsp;PROJECT</h2>
             <hr>
-            <p class="research-text">
-                Professor Hengmin Zhang from East China University of Science and Technology sincerely invites
-                applications for the following positions.
-            </p>
+            <div class="main-body">
+                <ol id="project">
+                    <li>Visual Data Modeling and Optimization Analysis (In Progress), National Natural Science
+                        Foundation of China Fund for Excellent Young Scholars Overseas, 2025.01–2027.12, <i
+                                class="journal_name">Principal Investigator</i>.
+                    </li>
+                    <li>Non-convex Low-rank Structure Learning: Methods and Theory (Completed), National Natural Science
+                        Foundation of China Young Scientists Fund, 2020.01–2022.12, <i class="journal_name">Principal
+                            Investigator</i>.
+                    </li>
+                    <li>Large-scale Low-rank Matrix Regression: Methods and Theory (Completed), The 13th Batch of
+                        Special Funding (Postdoctoral) from the China Postdoctoral Science Foundation, 2020.08–2021.03,
+                        <i class="journal_name">Principal Investigator</i>.
+                    </li>
+                    <li>Robust Regression Analysis: Methods and Algorithms (Completed), The 65th Batch of General
+                        Funding from the China Postdoctoral Science Foundation, 2019.05–2021.03, <i
+                                class="journal_name">Principal Investigator</i>.
+                    </li>
+                    <li>Intrusion-Tolerant Control and Mimic Defense for Power Grids Against Generalized Data Injection
+                        Attacks, National Natural Science Foundation of China General Program, 2021.01–2024.12, <i
+                                class="journal_name">Co-Investigator</i>.
+                    </li>
+                    <li>Robust Matrix Regression Representation Methods and Their Applications in Image Recognition
+                        (Completed), National Natural Science Foundation of China General Program, 2019.01–2022.12, <i
+                                class="journal_name">Co-Investigator</i>.
+                    </li>
+                    <li>Interactive Machine Teaching and Machine Learning Algorithms (Completed), National Natural
+                        Science Foundation of China Young Scientists Fund, 2017.01–2019.12, <i class="journal_name">Co-Investigator</i>.
+                    </li>
+                </ol>
+            </div>
         </header>
-        <hr>
-        <h3>PhD / MS in Control Science and Engineering</h3>
-        <hr class="large">
-        <div class="main-body">
-            <p>We are actively seeking highly qualified PhD candidates and master's students to pursue their doctoral
-                and master's studies at the School of Information Science and Engineering, East China University of
-                Science and Technology.</p>
-        </div>
-        <hr>
-        <h3>Contact Information</h3>
-        <hr class="large">
-        <div class="main-body">
-            <p>For inquiries, please contact Professor Hengmin Zhang (<strong>E-mail: zhanghengmin@ecust.edu.cn</strong>).
-            </p>
-        </div>
     </div>
 </section>
+
 <!-- Footer-->
 <footer class="bg-bottom text-center py-5">
     <div class="container px-5">
@@ -125,39 +140,6 @@
 
 <!-- Bootstrap core JS-->
 <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
-
-<!-- Mathematics -->
-<script>
-    // See https://docs.mathjax.org/en/latest/index.html for more details.
-    MathJax = {
-        tex: {
-            packages: {},              // extensions to use
-            inlineMath: [              // start/end delimiter pairs for in-line math
-                ['$', '$'],
-                ['\\(', '\\)']
-            ],
-            displayMath: [             // start/end delimiter pairs for display math
-                ['$$', '$$'],
-                ['\\[', '\\]']
-            ],
-            processEscapes: false,      // use \$ to produce a literal dollar sign
-            processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-            processRefs: true,         // process \ref{...} outside of math mode
-            digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-            tags: 'all',              // or 'ams' or 'all'
-            tagSide: 'right',          // side for \tag macros
-            tagIndent: '0.8em',        // amount to indent tags
-            useLabelIds: true,         // use label name rather than tag for ids
-            maxMacros: 10000,          // maximum number of macro substitutions per expression
-            maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-            // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-            // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-            formatError:               // function called when TeX syntax errors occur
-                (jax, err) => jax.formatError(err)
-        }
-    };
-</script>
-<script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 <script type="text/javascript" src="static/js/scripts.js"></script>
 <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 </html>
